@@ -1,0 +1,166 @@
+body {
+  background-color: #F7C800;
+  color: #111111;
+  font-family: 'Arial', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 20px;
+}
+
+.box {
+  background: #FFFFFF;
+  color: #111111;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+h1 { 
+  font-size: 2.5rem; 
+  font-weight: bold; 
+  margin-bottom: 30px; 
+}
+
+input, button { 
+  margin-bottom: 15px; 
+}
+
+button { 
+  background-color: #111111; 
+  color: #F7C800; 
+  border: none; 
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+button:hover { 
+  opacity: 0.8; 
+}
+
+.google-btn { 
+  background-color: #DB4437; 
+  color: #fff; 
+}
+
+.google-btn:hover { 
+  opacity: 0.9; 
+}
+
+.box-section { 
+  display: none; 
+  text-align: left; 
+}
+
+ul { 
+  list-style: none; 
+  padding: 0; 
+}
+
+.list-group-item { 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  margin-bottom: 5px; 
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.loading { 
+  display: none; 
+  text-align: center; 
+  margin: 10px 0; 
+}
+
+.alert { 
+  display: none; 
+  margin: 10px 0; 
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.alert-danger {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.form-control {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.mt-2 {
+  margin-top: 10px;
+}
+
+.mb-2 {
+  margin-bottom: 10px;
+}
+
+hr {
+  margin: 20px 0;
+  border: 0;
+  border-top: 1px solid #ddd;
+}
+
+/* Responsividade */
+@media (max-width: 576px) {
+  .box {
+    padding: 20px;
+    margin: 10px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+.password-wrapper {
+  position: relative;
+}
+.password-wrapper .btn-eye {
+  position: absolute;
+  right: 10px;
+  top: 8px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
